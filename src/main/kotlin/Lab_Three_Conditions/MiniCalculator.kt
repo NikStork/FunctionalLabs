@@ -4,18 +4,27 @@ class MiniCalculator {
 }
 
 fun main() {
+    println("Enter numbers and operation: ")
+    val mas: List<String> = readLine()!!.split(" ")
+
     while (true) {
-        println("Enter numbers and operation: ")
-        val numberOne: Int = readLine()!!.toInt()
-        val numberTwo: Int = readLine()!!.toInt()
-
-        println("You have numbers ${numberOne} and ${numberTwo}\n1. Add\n2. Subtract\n3. None")
-
-        val choice: String = readLine()!!
+        print("You have numbers: ")
+        for (i in mas) {
+            print(i + ", ")
+        }
+        println("\n1. Add\n2. Subtract\n3. None\n")
+        val choice: Int = readLine()!!.toInt()
 
         when(choice) {
-            "2" -> println("Result: ${numberOne - numberTwo}")
-            "0" -> break
+            1 -> {
+                val dopNumber: Int = readLine()!!.toInt()
+            }
+            2 -> {
+                for (i in mas) {
+                    println("Result ${mas[0].toInt() - i.toInt()}")
+                }
+            }
+            0 -> break
         }
     }
 }

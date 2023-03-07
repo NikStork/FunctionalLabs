@@ -14,5 +14,11 @@ fun main() {
         if (mas.min() != i && mas.max() != i) {
             println(i)
         }
+        else if (mas.min() == i && mas.max() == i) {
+            println("Error")
+        }
+        else {
+            println("Try again.")
+        }
     }
 }
