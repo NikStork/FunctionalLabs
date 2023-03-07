@@ -1,6 +1,6 @@
-package Lab_One
+package Lab_One_Basic
 
-// Задание №2
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ2
 
 class WorkingForVariables {
 }
@@ -8,7 +8,7 @@ class WorkingForVariables {
 fun main() {
     var number: Int = 5
     var str: Char = 'F'
-    var strDouble: String = "Привет"
+    var strDouble: String = "пїЅпїЅпїЅпїЅпїЅпїЅ"
     var nymFloat: Float = 90.2F
     val variableCons: Int = 67
 

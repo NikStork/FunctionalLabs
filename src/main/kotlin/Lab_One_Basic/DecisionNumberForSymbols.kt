@@ -1,6 +1,6 @@
-package Lab_One
+package Lab_One_Basic
 
-// Задание №3
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ3
 
 class DecisionNumberForSymbols {
 }

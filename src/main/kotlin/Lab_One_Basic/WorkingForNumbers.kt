@@ -1,6 +1,6 @@
-package Lab_One
+package Lab_One_Basic
 
-// Задание №4
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ4
 
 class WorkingForNumbers {
 }
