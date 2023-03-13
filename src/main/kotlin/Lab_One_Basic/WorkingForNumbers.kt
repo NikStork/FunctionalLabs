@@ -1,13 +1,18 @@
 package Lab_One_Basic
 
-// ������� �4
+// Task №4
 
 class WorkingForNumbers {
 }
 
 fun main() {
-    val num = readLine()!!
+    println("Enter amount of days: ")
+    val num: Int = readLine()!!.toInt()
+    var years: Int = num / 365
+    var daysOfTheWeek: Int = num % 365
+    var weeks: Int = daysOfTheWeek / 7
+    var days: Int = daysOfTheWeek % 7
 
-    val years: Int = num.toInt() / 365
-    val weeks: Int = num.toInt() / 7
+    println("Years: ${years}, weeks: ${weeks}, days: ${days}.")
+
 }

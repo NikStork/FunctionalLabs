@@ -1,10 +1,10 @@
 package Lab_One_Basic
 
-// ������� �1
+// Task №1
 
 class OutputInformation {
 }
 
 fun main() {
-    println("����\n35\ntrue")
+    println("Ivan\n35\ntrue")
 }
