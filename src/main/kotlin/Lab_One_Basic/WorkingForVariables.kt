@@ -1,6 +1,6 @@
 package Lab_One_Basic
 
-// ������� �2
+// Task №2
 
 class WorkingForVariables {
 }
