@@ -14,5 +14,4 @@ fun main() {
     var days: Int = daysOfTheWeek % 7
 
     println("Years: ${years}, weeks: ${weeks}, days: ${days}.")
-
 }

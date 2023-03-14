@@ -2,11 +2,12 @@ package Lab_Three_Conditions
 
 import kotlin.math.min
 
+//Task #5
 class AverageNumber {
 }
 
 fun main() {
-    println("Enter three numbers:")
+    println("Enter three numbers separated by a space:")
 
     val mas: List<String> = readLine()!!.split(" ")
 

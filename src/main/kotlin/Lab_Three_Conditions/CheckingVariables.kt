@@ -1,5 +1,7 @@
 package Lab_Three_Conditions
 
+// Task #7
+
 class CheckingVariables {
 }
 

@@ -14,6 +14,5 @@ class Message(_name: String) {
 
 fun main() {
     var obj: Message = Message("Nikita")
-
     obj.introduce()
 }

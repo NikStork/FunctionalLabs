@@ -1,9 +1,12 @@
 package Lab_Three_Conditions
 
+// Task #2
+
 class SimpleCondition {
 }
 
 fun main() {
+    println("Enter number: ")
     val age: Int = readLine()!!.toInt()
 
     if (age > 18) {

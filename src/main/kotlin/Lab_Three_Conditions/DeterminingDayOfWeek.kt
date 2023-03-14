@@ -1,11 +1,12 @@
 package Lab_Three_Conditions
 
+// Task #4
 class DeterminingDayOfWeek {
 }
 
 fun main() {
     println("Enter number: ")
-    val day: Int = readLine()!!.toInt()
+    var day: Int = readLine()!!.toInt()
 
     when(day) {
         1 -> println("Monday")
@@ -15,5 +16,8 @@ fun main() {
         5 -> println("Friday")
         6 -> println("Saturday")
         7 -> println("Sunday")
+        else -> {
+            println("Try again.")
+        }
     }
 }
