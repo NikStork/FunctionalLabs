@@ -7,12 +7,13 @@ class CheckingVariables {
 
 fun main() {
     println("Enter numbers: ")
+    var a: Int = readLine()!!.toInt()
+    var b: Int = readLine()!!.toInt()
 
-    val mas: List<String> = readLine()!!.split(" ")
-
-    for(i in mas) {
-        if (i.toInt() % 2 == 0) {
-            println(i)
-        }
+    if (a % 2 == 0 && b % 2 == 0) {
+        println("true")
+    }
+    else {
+        println("false")
     }
 }

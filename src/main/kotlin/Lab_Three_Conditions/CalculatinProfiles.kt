@@ -5,11 +5,18 @@ class CalculatinProfiles {
 }
 
 fun main() {
-    println("Enter the number of goods for export and import separated by a space: ")
+    println("Enter the number of goods for export and import: ")
+    println("Profit: ")
+    var profit: Int = readLine()!!.toInt()
+    println("Losses: ")
+    var l: Int = readLine()!!.toInt()
 
-    val mas: List<String> = readLine()!!.split(" ")
+    var saldo: Int = profit - l
 
-    val saldo: Int = mas[0].toInt() - mas[2].toInt()
-
-    println(saldo)
+    if (saldo > 0) {
+        println("Your profit is: ${saldo}")
+    }
+    else {
+        println("Your losses is: ${saldo * (-1)}")
+    }
 }
