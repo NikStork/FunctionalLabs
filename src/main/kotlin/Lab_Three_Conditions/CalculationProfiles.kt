@@ -1,7 +1,7 @@
 package Lab_Three_Conditions
 
 // Task #6
-class CalculatinProfiles {
+class CalculationProfiles {
 }
 
 fun main() {
