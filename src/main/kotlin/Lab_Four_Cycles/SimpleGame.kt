@@ -16,9 +16,10 @@ fun main() {
 
         if (number == randNumber) {
             println("\nNice! You win, your number matched!")
+            break
         }
         else {
-            println("\nTry again.")
+            println("Try again.")
         }
     }
 }
